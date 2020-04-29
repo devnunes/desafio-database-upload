@@ -25,6 +25,8 @@ export default class CreateTransaction1588016891532
           {
             name: 'value',
             type: 'decimal',
+            precision: 10,
+            scale: 2,
           },
           {
             name: 'created_at',
